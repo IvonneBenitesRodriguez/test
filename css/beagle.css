@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    background: no-repeat right 57%/ cover url(../img/logo.png);
+    display: flex;
+    height: 256px;
+    align-items: center;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px)/100) 'Dancing Script', fantasy;
+    color: ivory;
+    text-shadow: #000 2px 2px 0.2rem;
+}
+header > h1{
+ 
+    padding: 2% 4% 2% 4%;
+}
+header > time{
+    font: italic 0.7rem sans-serif;
+    padding: 2% 4% 2% 4%;
+}
+.text-first{
+    padding: 0 4% 0 4%;
+}
+.second-article{
+    margin-top: 10%;
+}
+.title-second{
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+aside{
+    width: 40%;
+    padding-left: 0.5%;
+    margin-left: 0.5%;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+aside > p{
+    margin: 0.5rem;
+}
+.forecast{
+    margin: 0;
+    padding: 0.3%;
+}
+.forecast > h2,
+.day-forecast{
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+.day-forecast{
+    background: right /contain content-box no-repeat url(../img/rain-icon.svg) white;
+}
+.day-forecast > h2, 
+.day-forecast > p {
+    margin: 0.2rem;
+    font-size: 1rem;
+}
+.title-forecast{
+    padding-top: 4%;
+}
+.space{
+    padding: 2%;
+    background-color: burlywood;
+}
+.box-model{
+    margin: 20px;
+    padding: 20px;
+    width: 80px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: inline-block;
+}
+p.heart-attached{
+    background: pink url("../img/start.png");
+    background-attachment: fixed;
+    padding: 3%;
+}
