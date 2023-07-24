@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    padding: 4% 4% 2% 4%;
+    align-items: center;
+    width: 100%;
+}
+nav.navbar{
+    padding-left: 4%;
+    width: 100%;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+li a {
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: darkmagenta;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.text-organized{
+    padding: 1% 4% 2% 4%;
+    text-align: justify;
+}
+ul.text-link{
+   padding-top: 3%;
+   display: block;
+   flex-direction: column;
+   padding-left: 4%;
+   padding-right: 4%;
+}
+ul.text-link li{
+    padding-bottom: 20px;
+}
+.text-paragraph{
+    font-size: 1rem;
+    line-height: 25px;
+}
+.img-fluid{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.img-fluid img{
+    width: 100%;
+    border-radius: 30px;
+}
+.text-center{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+aside{
+    width: 40%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px blue;
+    font-style: italic;
+    color: blue;
+}
+aside > p {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.text-aside{
+    padding-right: 1%;    
+}
+.text-edge{
+    padding-right: 2%;
+    padding-left: 4%;
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: start;
+}
+.wrap{
+    background: pink right no-repeat url(../img/bear.png);
+    padding: 9%;
+}
+h4.text-organized{
+    color: blue;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+}
+h4.text-organized a{
+    text-decoration: none;
+    cursor: pointer;
+}
